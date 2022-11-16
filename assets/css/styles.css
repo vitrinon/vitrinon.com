@@ -991,8 +991,8 @@
 }
 
 @media (min-width: 768px) {
-  .mybuttongroup button:last-child {
-    width: 100%;
+  .mybuttongroup button {
+    width: 100%!important;
     border: none;
     border-radius: .5rem;
   }
