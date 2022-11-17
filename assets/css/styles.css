@@ -406,6 +406,7 @@
   border-width: 0;
   padding: .8rem 0;
   justify-content: center;
+  color: var(--bs-body-color);
 }
 
 .mybuttongroup button span {
