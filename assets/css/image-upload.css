@@ -1,0 +1,350 @@
+.form-control.btn.btn-default.btn-block.img-upload-btn {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(242,244,248);
+  border-style: dashed;
+  border-color: #fb5022;
+  color: #fb5022;
+  border-radius: 1.5rem;
+  border-width: 1PX;
+}
+
+.img-upload-btn input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  height: 100%!important;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: #d3d3d3;
+  cursor: inherit!important;
+  display: block;
+  /*padding: 100%;*/
+  aspect-ratio: 16/9;
+}
+
+.img-upload-btn .fas.fa-plus {
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  margin-left: -8px;
+  /*color: #fc5021;*/
+  padding: .5rem;
+  box-sizing: content-box;
+  background-color: rgba(242,244,248,0.8) !important;
+  border: 1px solid #fff !important;
+  border-radius: 50%;
+  /*mix-blend-mode: difference;*/
+}
+
+.btn-radio {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-radio input[type=radio] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+
+.preview {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.backhighlighter {
+}
+
+.deletor {
+  position: absolute;
+  top: .5rem;
+  right: .5rem;
+  z-index: 1;
+}
+
+.deletor:hover {
+  position: absolute;
+  z-index: 1;
+  background: #000;
+  text-decoration: none;
+}
+
+.btn.btn-link.deletor {
+  background: none;
+  border: none;
+  padding: .25rem;
+  width: 2rem;
+  height: 2rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0,0,0,0.5)!important;
+  border: 1px solid #fff!important;
+  color: #ffffff;
+  border-radius: 50%;
+  text-decoration: none;
+  text-decoration: none;
+}
+
+.backhighlighter .form-group.col-sm-11 {
+  width: 100%;
+}
+
+.nav-pills .nav-link {
+  color: #000;
+}
+
+.tepemodal .nav-link {
+  font-size: .8rem;
+}
+
+@media (max-width: 768px) {
+  .tepemodal .nav-item {
+    width: calc(50% - .25rem);
+    text-align: center;
+    /*-ms-flex: 0 0 50%;*/
+    /*flex: 0 0 50%;*/
+    /*max-width: 50%;*/
+  }
+}
+
+.tepemodal .nav-pills .nav-link {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d3d3d3;
+  /*-ms-flex: 0 0 50%;*/
+  /*flex: 0 0 50%;*/
+  /*max-width: 50%;*/
+}
+
+.tepemodal .nav-pills {
+  display: flex;
+  gap: .5rem;
+  /*flex: 1;*/
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  flex-shrink: 50%;
+}
+
+.tepemodal .accordion-button {
+  background-color: #f2f4f8!important;
+}
+
+.tepemodal .accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23454D65'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+}
+
+.tepemodal .accordion-button.collapsed:after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23454D65'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+}
+
+.tepemodal .accordion {
+  background: none;
+}
+
+.tepemodal .accordion-collapse {
+  background: #f2f4f8;
+}
+
+.wrapper-x {
+  max-width: 700px;
+  margin: auto;
+}
+
+.editprofilediv {
+  padding: 1rem;
+  background-color: #111111;
+  border-radius: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.editprofilewrapper a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.editprofilewrapper a p {
+  color: #fff;
+}
+
+.vitrin-urunu-background {
+  border-radius: 1rem;
+  border-style: dashed;
+  border-color: #d3d3d3;
+  border-width: 1px;
+}
+
+.vitrin-urunu-background input {
+  opacity: 0;
+  aspect-ratio: 157/213;
+}
+
+.digermagazakutusu img, .digermagazakutusu svg {
+  width: 100%;
+  height: 2rem;
+}
+
+.brand-profile-section .basligi svg {
+  color: #fb5022;
+}
+
+.log-reg-logo {
+  width: 10rem;
+  margin: auto;
+  display: block;
+}
+
+.log-reg-logo-div {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.log-reg-wrapper {
+  max-width: 500px;
+  margin: auto;
+}
+
+.hesap-tur-secenek {
+  padding: 2rem .8rem;
+  border: 1px solid #FC5021;
+  border-radius: 10px;
+  display: grid;
+  flex-direction: column;
+  gap: 1rem;
+  justify-items: center;
+  width: clamp(7rem , 9.5rem , 10rem);
+}
+
+.hesap-tur-secenek .iconundivi {
+  aspect-ratio: 1;
+  font-size: 2rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  /*padding: 1rem;*/
+  background-color: #fb5022;
+  color: #fff;
+  border-radius: .5rem;
+  width: 4rem;
+  height: 4rem;
+}
+
+.righticon {
+  color: #fb5022;
+}
+
+.logreg-centerform {
+  min-height: calc(100vh - 262px);
+  display: grid;
+  align-items: center;
+}
+
+.dogrulama-form {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.karartmadiv {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: rgba(4,4,4,0.48);
+}
+
+.kapakfoto-upload-area {
+  aspect-ratio: 16/9;
+  border-radius: 1rem;
+  border: 2px dashed var(--bs-orange);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.kapakfoto-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.addfileicon, .addfileicon-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  padding: .5rem;
+  box-sizing: content-box;
+  background-color: rgba(0,0,0,0.75);
+  border-radius: 50%;
+  color: #ffffff;
+  z-index: 2;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+
+.kapakfoto-upload-area.logo-upload-area {
+  aspect-ratio: 1;
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding-bottom: 5rem;
+  }
+}
+
+footer ul.list-inline a {
+  color: #111;
+  font-size: 1.2rem;
+}
+
+footer {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.notificationlist {
+  display: grid;
+  gap: 1rem;
+}
+
+.notificationdiv {
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
