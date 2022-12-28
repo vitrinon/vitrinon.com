@@ -1,0 +1,36 @@
+.form-check [type="checkbox"]:checked + label {
+  background-color: #f2f4f8;
+  /*color: var(--turuncu);*/
+  border-color: var(--turuncu);
+  box-shadow: 0px 0px 0px 3px rgba(252,80,34,0.16);
+}
+
+.form-check [type="checkbox"] + label {
+  background-color: #f2f4f8;
+  align-items: center;
+  justify-content: center;
+  color: #111111;
+  border-radius: .5rem;
+  border-color: #979797;
+  border-style: solid;
+  border-width: 1px;
+  padding: 1rem;
+}
+
+.boxed-check.form-check [type="checkbox"] + label {
+  display: block;
+  gap: .5rem;
+  width: 100%;
+}
+
+.boxed-check .form-check-input {
+  display: none;
+}
+
+.boxed-check {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: block;
+}
+

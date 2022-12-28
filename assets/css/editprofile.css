@@ -127,3 +127,38 @@
   /*transform: translateY(-.5rem);*/
 }
 
+.paketsecimibaslikspan {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.5rem;
+  justify-content: space-between;
+  margin-bottom: .5rem;
+}
+
+.detaygor-accordion-btn {
+  width: 100%;
+  background: none;
+  display: flex;
+  justify-content: space-between;
+  padding: .5rem;
+  border: none;
+}
+
+.detaygor-accordion-btn:not(.collapsed) svg {
+  transform: rotate(45deg);
+}
+
+.detaygor-accordion-btn svg {
+  transition-duration: .2s;
+}
+
+.paket-ozellik-list li {
+  display: flex;
+}
+
+.paket-ozellik-list {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
